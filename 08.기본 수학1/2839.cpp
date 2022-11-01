@@ -13,17 +13,30 @@ https://dusxo1203.tistory.com/
 int main()
 {
     int N;
-    int quo5,remain5,cnt=0;
+    int quo5,rem5,quo3,cnt;
     scanf("%d",&N);
+
     quo5 = N/5;
-    remain5 = N%5;
+    rem5 = N%5;
+
     for(int i =quo5;i>0;i--)
     {
         if((N-quo5*5)%3==0)
         {
-            cnt = (N-quo5*5)/3;
+            quo3 = (N-quo5*5)/3;
+            cnt = i+quo3;
+            break;
+        }
+        else
+        {
+            continue;
+        }
+        if(i=1)
+        {
+            cnt=-1;
         }
     }
+    printf("%d",cnt);
 
     return 0;
 }
