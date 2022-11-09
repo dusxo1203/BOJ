@@ -19,6 +19,11 @@ int main()
 
     quo5 = N/5;
     rem5 = N%5;
+    if(quo5 ==0 && rem5==0)
+    {
+        cnt =0;
+        return 0;
+    }
 
     for(int i =quo5;i>0;i--)
     {
