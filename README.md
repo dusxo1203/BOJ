@@ -6,16 +6,24 @@
 
 #Code
     -Pracice
+    -BOJ(BaekJoon)
+        -BOJ_C
+            -SBS(Solve-by-step)
+                1. 입출력과 사칙연산
+                2. IF문
+                3. FOR문
+                4. WHILE문
+                5. 1차원 배열
+                6. 문자열
+                7. 기본 수학1
+                ...
+        
+        -BOJ_Cpp
 
-    -BaekJoon
-        -Solve-by-step
-            1. 입출력과 사칙연산
-            2. IF문
-            3. FOR문
-            4. WHILE문
-            5. 1차원 배열
-            6. 문자열
-            7. 기본 수학1
+        -BOJ_Py
+
+
+
 
     -Programmers
 
