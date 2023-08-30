@@ -5,6 +5,7 @@
 
 
 #Code
+
     -Pracice
     -BOJ(BaekJoon)
         -BOJ_C
@@ -16,14 +17,9 @@
                 5. 1차원 배열
                 6. 문자열
                 7. 기본 수학1
-                ...
-        
         -BOJ_Cpp
 
         -BOJ_Py
-
-
-
 
     -Programmers
 
